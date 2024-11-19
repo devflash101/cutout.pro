@@ -1,0 +1,18 @@
+/* Layout for the authentication pages */
+.auth-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222; /* Matches main project background */
+  color: #fff;
+}
+
+.auth-content {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #333; /* Slight contrast for the form container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
