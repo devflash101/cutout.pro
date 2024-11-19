@@ -1,0 +1,49 @@
+.card {
+  background-color: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.card-version {
+  background-color: #333;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #8ac6d1;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.card-image {
+  width: 50%;  /* Keep the image width at 50% of the card */
+  height: 150px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  align-self: flex-end;  /* Keep the image at the bottom-right */
+}
+
+.card-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.explore-link, .api-link {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.explore-link:hover, .api-link:hover {
+  color: #fff;
+}

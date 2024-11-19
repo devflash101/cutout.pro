@@ -1,0 +1,74 @@
+.main-page {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.navbar {
+  background-color: #222;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #8ac6d1;
+  text-align: center;
+} */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 1rem;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+  position: relative; /* Ensure that the navbar is positioned relative to place the account icon */
+}
+
+.account-icon {
+  position: absolute; /* Position it absolutely within the navbar */
+  top: 10px;  /* Adjust the top offset to position it properly */
+  right: 10px; /* Adjust the right offset to position it properly */
+  cursor: pointer;
+}
+
+.account-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 200px;  /* Increase the width to make it wider */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}
