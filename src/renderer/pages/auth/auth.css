@@ -37,3 +37,16 @@
 .auth-form button:hover {
   background-color: #79b8b3; /* Button hover effect */
 }
+
+.auth-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.auth-link p {
+  color: #fff; /* Change text color as needed */
+}
+
+.auth-link span:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
